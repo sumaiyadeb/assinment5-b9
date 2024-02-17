@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- daisy ui & taildwin css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--css -->
+    <link rel="stylesheet" href="style.css" />
+    <!--style css-->
+    
+  </head>
+  <body>
+    <header class="py-40 px-40">
+      <!--p ticket -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li></li>
+              <li><a></a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-3xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a class="text-xl">
+                <span style="color: brown" class="">Home</span></a
+              >
+            </li>
+            <li><a class="text-xl">Content</a></li>
+            <li><a class="text-xl">About</a></li>
+            <li><a class="text-xl">Blog</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-error">Get Trickt's</button>
+        </div>
+      </div>
+
+      <section></section>
+      <!-- background  img section-->
+      <article class="pt-5">
+        <div
+          class="hero rounded-box min-h-screen"
+          style="background-image: url(images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">End-to-End Travel</h1>
+              <h1>
+                <span style="color: darkgreen" class="text-5xl font-bold"
+                  >P Paribahan</span
+                >
+              </h1>
+              <p class="mb-5 pt-4">
+                Provident cupiditate voluptatem et in Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. <br />
+                In deleniti eaque aut repudiandae et a id nisi.
+              </p>
+              <button class="btn bg-green-600">Buy Tickets</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- best offer section-->
+      <section class="">
+        <div class="text-5xl text-center pt-10">
+          <h1>Best offers for you</h1>
+        </div>
+      </section>
+    </header>
+    <!--main part and apply section -->
+    <main class="bg-slate-300">
+      <!--P.H Paribahan-->
+      <section></section>
+      <!--card section -->
+      <article class="flex gap-3">
+        <div
+          class="card bg-base-100 shadow-xl"
+          style="width: 750px; height: 800px"
+        >
+        <section class="px-5 py-5">
+            <div class="">
+                <h2 class="text-xl">Select Your Seat</h2>
+                <p>
+                  -------------------------------------------------------------------------------------------------------------
+                </p>
+                <div class="flex" style="justify-content: space-between">
+                  <p>Available</p>
+                  <div>
+                    <p class="text-green-500 text-bold">Selected</p>
+                    
+                  </div>
+                </div>
+                <p> -------------------------------------------------------------------------------------------------------------</p>
+              </div>
+              <button class="btn btn-active" style="text-align: left;">Default</button>
+              <!--apply card 2-->
+              <section>
+                <article class="flax grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                    <button class="btn btn-active" style="text-align: left;">Default</button>
+                </article>
+                
+              </section>
+            </div>
+        </section>
+        <!--2nd card-->
+        <div class="card bg-base-100 shadow-xl" style="width: 750px">
+          <figure class="px-10 pt-10"></figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!--footer section-->
+    <section class="pt-10">
+        <footer class="footer p-10 bg-neutral text-neutral-content ">
+            <nav>
+              <h6 class="footer-title">Services</h6>
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Company</h6>
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+              <h6 class="footer-title">Legal</h6>
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+          </footer>
+    </section>
+    
+  </body>
+</html>
